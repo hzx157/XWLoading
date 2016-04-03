@@ -13,12 +13,14 @@ s.license       = "MIT"
 s.summary       = "Fast encryption string used on iOS, which implement by Objective-C."
 s.homepage      = "https://github.com/hzx157/XWLoading"
 s.author        = { "Huangzhenxiang" => "317804760@qq.com" }
-s.source        = { :git => "https://github.com/hzx157/XWLoading", :tag => "0.0.1" }
+
+s.source        = { :git => "https://github.com/hzx157/XWLoading.git", :tag => "0.0.1" }
+
 s.requires_arc  = true
 s.description   = <<-DESC
-Fast encryption string, the loading
+Fast encryption string, This is mainly used for page loading chrysanthemum, etc
 DESC
-s.source_files  = "Xw/*"
+s.source_files  = 'Xw/*.{h,m}'
 s.platform      = :ios, '7.0'
 s.framework     = 'Foundation', 'CoreGraphics', 'UIKit'
 
